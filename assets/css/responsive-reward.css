@@ -1,0 +1,277 @@
+/* Mobile & Tablet */
+@media (max-width: 767px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .header__logo-link {
+        width: 40px;
+        height: auto;
+    }
+
+    .header__container {
+        height: 72px;
+    }
+
+    .header__title {
+        padding-left: 10px;
+    }
+
+    .header__content {
+        padding-left: 10px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header__menu, .header__menu-exit {
+        display: block;
+    }
+
+    .container__header {
+        text-align: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .grid.container__banner {
+        display: block;
+    }
+
+    .grid.container__banner h2 {
+        margin: 0;
+        padding: 24px 0;
+    }
+
+    .category-wrap {
+        padding: 0 10px;
+    }
+
+    .content__tutorial-step:nth-child(2) {
+        padding: 68px 0;
+    }
+
+    .nav__mobile {
+        display: block;
+    }
+
+    .tab-item {
+        margin:0 auto;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    .tab-pane {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .product-img {
+        max-width: 250px;
+    }
+
+
+    .extend-heading {
+        padding: 36px 0;
+    }
+
+    .extend-part {
+        padding-bottom: 36px;
+    }
+
+    .extend-part p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .extend-part a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .footer-social {
+        padding: 24px 10px;
+    }
+
+    .rules {
+        flex-direction: column;
+    }
+
+    .rules-item {
+        border: none;
+    }
+
+    .rules-item a {
+        padding: 10px 0;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 1023px){
+    h2 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    .header {
+        max-height: 72px;
+        position: relative;
+        max-width: 100%;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .footer-category__item {
+        color: rgba(0, 0, 0, 0.8);
+        position: relative;
+        display: flex;
+        align-items: center;
+        max-height: 40px;
+        margin: 24px 0 0 0;
+        top: 0;
+    }
+
+    .footer-category__item:hover {
+        cursor: pointer;
+    }
+
+    .footer-category h5 {
+        font-size: 18px;
+        margin: 32px 0;
+        padding: 0;
+    }
+
+    .category-wrap {
+        max-height: 64px;
+        overflow: hidden;
+        transition: all 0.25s linear;
+    }
+
+    .category-wrap.expand {
+        max-height: 360px;
+    }
+
+    .category-list.active {
+        display: block;
+    }
+
+    .footer-category button {
+        background-color: transparent;;
+        width: 44px;
+        height: 44px;
+        font-size: 24px;
+        right: 0;
+        margin-left: auto;
+        text-align: center;
+        align-self: center;
+        border: 0;
+        border-radius: 50px;
+    }
+
+    .footer-category button:hover {
+        background-color: rgb(235, 235, 235);
+        cursor: pointer;
+        transition: all .2s ease-out;
+    }
+
+    .content__tutorial-step img {
+        max-width: 48px;
+        max-height: 48px;
+    }
+
+    .endless__des-item, .content__tutorial-step {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .endless__des-content, .step__content {
+        text-align: left;
+        padding-left: 24px;
+    }
+
+    .endless__des-item:nth-child(2) {
+        padding: 68px 0;
+    }
+
+    .endless__des-item img {
+        max-width: 112px;
+        max-height: 112px;
+        padding-left: 5px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .wide {
+        width: 95%;
+    }
+
+    .list__item-link {
+        height: 72px;
+    }
+
+    .container__header {
+        background-position: 50%;
+        background-size: auto 100%;
+        height: 520px;
+    }
+
+    .sign__btn {
+        color: #000;
+        text-decoration: none;
+        margin-left: 4px;
+        border: 1px solid #000;
+        border-radius: 50px;
+        padding: 7px 16px;
+        line-height: 14px;
+        font-size: 14px;
+    }
+
+    .sign__btn.sign-up {
+        color: #fff;
+    }
+    .sign__btn.banner__sign-btn {
+        color: #fff;
+        border: #008248;
+    }
+} 
+
+@media (min-width: 1024px) {
+    .header__title {
+        position: fixed;
+        top: auto;
+    }
+
+    .hide-on-pc {
+        display: none;
+    }
+
+    .header__menu, .header__menu-exit {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px){
+    .wide {
+        width: 90%;
+    }
+} 
